@@ -56,9 +56,9 @@ export function roleToString(role_id) {
         case 0:
             return 'admin';
         case 1:
-            return 'professor';
+            return 'player';
         case 2:
-            return 'student';
+            return 'spectator';
     }
 }
 
